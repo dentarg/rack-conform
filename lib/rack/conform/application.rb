@@ -6,6 +6,8 @@
 require 'json'
 require 'async/websocket/adapters/rack'
 
+require 'rack/response'
+
 module Rack
 	module Conform
 		class Application
