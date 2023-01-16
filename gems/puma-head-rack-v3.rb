@@ -5,7 +5,7 @@
 
 eval_gemfile '../gems.rb'
 
-gem "puma", git: "https://github.com/puma/puma.git"
+gem "puma", git: "https://github.com/dentarg/puma.git", branch: "dentarg/00-size-to-first-byte-ws"
 gem "rack", "~> 3.0"
 
 # export RACK_CONFORM_SERVER="puma"
